@@ -1,9 +1,9 @@
-# Заголовок первого уровня  
-А `тут` важная инфа  
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
 
-
-Выделение кода внизу  
-```
-import something
-print("hello github")
+%% стрелка без текста для примера: 
+  A --> B;
+```)
 
