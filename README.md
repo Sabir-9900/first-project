@@ -9,7 +9,7 @@ sequenceDiagram
     iframe->>dotcom: iframe ready
     dotcom->>iframe: set mermaid data on iframe
     iframe->>iframe: render mermaid
-```
+
 
 flowchart LR;
     A-->B;
@@ -19,3 +19,4 @@ flowchart LR;
     click B "http://www.github.com" "This is a tooltip for a link"
     click A call callback() "Tooltip for a callback"
     click B href "http://www.github.com" "This is a tooltip for a link"
+```
